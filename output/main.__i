@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\user -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\Libraries\CMSIS\CM3\CoreSupport -I .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I .\APP\·äÃùÆ÷ -I .\APP\LED -I .\APP
+-I.\RTE\_Target_1
+-IE:\KEILMDK\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+-IE:\KEILMDK\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d "user\main.c"
